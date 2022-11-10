@@ -1,0 +1,407 @@
+.wpb_wrapper .opportunityvideos {
+    width: 280px;
+    margin-left: -230px;
+    margin-top: 110px
+}
+
+.wpb_wrapper .opportunityTabs {
+    margin-top: -220px
+}
+
+.City1 p, .City2 p, .City3 p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.margin-bottom {
+    margin-bottom: 50px
+}
+
+#reach .panelLinks a {
+    margin: 0 auto;
+    display: block;
+    background: #ea4291;
+    position: relative;
+    padding: 20px 0;
+    color: #fff;
+    font: 500 17px lato, sans-serif;
+    padding-left: 30px;
+    height: 65px;
+    text-transform: uppercase
+}
+
+#reach .panelLinks .linkBefore::before {
+    content: '';
+    border-bottom: 1px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px
+}
+
+#reach .panelLinks a img {
+    position: absolute;
+    left: -19px;
+    top: 15px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+    width: 25px;
+    height: 25px
+}
+
+#reach .panelLinks a strong {
+    font-weight: 500
+}
+
+#reach .stackContainer .reachlLinks {
+    width: 100%;
+    top: 65%;
+    padding-top: 0;
+    margin: 0 auto;
+    max-width: 1200px
+}
+
+#reach .ImageBackground {
+    background: #fff;
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-left: -54px;
+    margin-top: -10px;
+    border-radius: 100%
+}
+
+.CEOVideo {
+    margin-left: 5%;
+    margin-top: 10%;
+    display: block;
+    width: 80%
+}
+
+.contactForm.ourstoresform .field label {
+    color: #000 !important;
+    font-weight: 500
+}
+
+.contactForm.ourstoresform input {
+    color: #000 !important;
+    border-bottom: 1px solid #ee4695 !important
+}
+
+.contactForm.ourstoresform input[type=submit] {
+    background: #ee4695 !important;
+    color: #fff !important;
+    font-weight: 500
+}
+
+.ourstoresform .field.has-content label {
+    top: -10px;
+    opacity: .5;
+    -webkit-transform: scale(.3);
+    transform: scale(.3)
+}
+
+.ourstoresform .field.has-content::after {
+    width: 100%;
+    border-width: 1px;
+    bottom: 0
+}
+
+.ourstoresform {
+    margin-top: 20px !important;
+    float: left !important;
+    padding-left: 0 !important
+}
+
+.reset_scale_size {
+    -webkit-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+    -ms-transform: scale(1) !important;
+    transform: scale(1) !important;
+    opacity: 1 !important
+}
+
+.loading_spinner {
+    left: 50%;
+    margin-left: -20px;
+    top: 50%;
+    margin-top: -14px;
+    position: absolute;
+    z-index: 2 !important;
+    animation: loading-bar-spinner .9s linear infinite;
+    -webkit-animation: loading-bar-spinner .9s linear infinite;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: solid 2px transparent;
+    border-top-color: #193d51 !important;
+    border-left-color: #193d51 !important;
+    border-radius: 50%
+}
+
+@keyframes loading-bar-spinner {
+    0% {
+        transform: rotate(0);
+        -webkit-transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes loading-bar-spinner {
+    0% {
+        transform: rotate(0);
+        -webkit-transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+.vidoespopup {
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .56);
+    right: 0;
+    bottom: 0;
+    display: none
+}
+
+.vidoescenter_popup {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 7%;
+    width: 59.6%;
+    max-width: 1100px
+}
+
+.vidoespopupscreen {
+    background: #000;
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    height: 403px;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    transform: scale(.5);
+    opacity: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    box-sizing: border-box;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.VideosPopupOfWig {
+    float: left;
+    width: 100%
+}
+
+#VideoFive, #VideoFour, #VideoOne, #VideoThree, #VideoTwo {
+    display: none
+}
+
+.mobile_videos {
+    z-index: 3
+}
+
+#wigs1, #wigs2, #wigs3, #wigs4, #wigs5, #wigs6, #wigs7, #wigs8, #wigs9 {
+    cursor: pointer
+}
+
+#bestNav {
+    opacity: 0;
+    visibility: hidden
+}
+
+.errorMsgshow .field .req {
+    display: none
+}
+
+@media only screen and (max-width: 1150px) {
+    .wpb_wrapper .opportunityvideos {
+        display: none
+    }
+
+    .wpb_wrapper .opportunityTabs {
+        margin-top: 0
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body header.sticky .logo {
+        top: 50px !important;
+        width: 12vw
+    }
+
+    .wpb_video_widget.vc_video-aspect-ratio-169 .wpb_video_wrapper {
+        padding-top: 89.25%
+    }
+
+    .vidoescenter_popup {
+        margin-top: 5%;
+        width: 80%
+    }
+
+    .vidoescenter_popup .vidoespopupscreen {
+        height: 280px
+    }
+
+    .mobile_videos, div#VideoSix iframe {
+        width: 400px !important;
+        height: 200px !important
+    }
+
+    .PhoneNumbers .numbers {
+        float: left !important;
+        width: 48% !important;
+        margin-left: 15px
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    nav.handheld.mainNav {
+        top: 20px !important
+    }
+
+    header.sticky .logo {
+        top: 40px !important
+    }
+
+    .numbers {
+        float: left !important;
+        width: 80% !important
+    }
+
+    .call {
+        float: left !important;
+        width: 20% !important
+    }
+
+    .ourstoresform {
+        margin-left: 10% !important
+    }
+
+    .CEOVideo {
+        margin-left: 0 !important
+    }
+
+    .tabs .wpb_wrapper a {
+        width: 90% !important;
+        font-size: 14px !important
+    }
+
+    .tabs .wpb_wrapper {
+        float: left;
+        padding-left: 25px;
+        margin-left: 0 !important;
+        margin-right: 0 !important
+    }
+
+    .tabs {
+        margin-bottom: 0 !important
+    }
+
+    #forte .contentWrapper {
+        height: 30%
+    }
+
+    body #productPage .titleBox {
+        width: 100%;
+        max-width: 100%;
+        border: none;
+        max-height: none
+    }
+
+    body #productPage .topBox h1 {
+        display: block;
+        margin-top: 0
+    }
+}
+
+body #productPage .titleBox::after {
+    content: '';
+    display: block;
+    vertical-align: unset;
+    height: auto
+}
+
+body #productPage .descBox::before {
+    content: '';
+    display: block;
+    vertical-align: unset;
+    height: auto
+}
+
+body .cateGoryImage {
+    border: none;
+    width: 100%
+}
+
+body .cateGoryImage img {
+    width: 360px
+}
+
+#CEOVideo iframe {
+    width: 415px !important
+}
+
+#reach .stackContainer .reachlLinks {
+    left: 30px
+}
+
+#reach .stackContainer .panelLinks::before {
+    left: -500px
+}
+
+.vidoescenter_popup {
+    margin-top: 40%
+}
+
+.vidoescenter_popup .vidoespopupscreen {
+    height: 300px
+}
+
+.mobile_videos, div#VideoSix iframe {
+    width: 300px !important;
+    height: 200px !important
+}
+
+#forte .contentWrapper {
+    height: 20%
+}
+
+#expert .bgImg {
+    top: 0
+}
+
+#reach .stackContainer {
+    height: auto
+}
+
+body #expert h1 {
+    height: 53.5%
+}
+
+body .tabs {
+    width: 90%
+}
+
+.tabs .wpb_wrapper {
+    width: 100%;
+    margin-bottom: 15px;
+    padding-left: 10px !important
+}
